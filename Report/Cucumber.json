@@ -1,0 +1,307 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2021-12-24T04:06:38.245Z",
+    "line" : 16,
+    "name" : "verify that user is able to login the application",
+    "description" : "",
+    "id" : "testing-adactin-application-end-to-end--process;verify-that-user-is-able-to-login-the-application;;2",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 5265703700,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User launch the application",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_launch_the_application()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 422791500,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User enters the valid \"AAA\" in the username field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "AAA",
+          "offset" : 23
+        } ],
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_enters_the_valid_in_the_username_field(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 320817100,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "User enters the valid \"111\" in the password field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "111",
+          "offset" : 23
+        } ],
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_enters_the_valid_in_the_password_field(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1132356200,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User clicks on the login button",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_clicks_on_the_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "user verify the homepage navigates to search hotel",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_verify_the_homepage_navigates_to_search_hotel()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@SmokeTest"
+    } ]
+  }, {
+    "start_timestamp" : "2021-12-24T04:06:45.621Z",
+    "line" : 17,
+    "name" : "verify that user is able to login the application",
+    "description" : "",
+    "id" : "testing-adactin-application-end-to-end--process;verify-that-user-is-able-to-login-the-application;;3",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 780105800,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User launch the application",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_launch_the_application()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 269846200,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User enters the valid \"BBB\" in the username field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "BBB",
+          "offset" : 23
+        } ],
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_enters_the_valid_in_the_username_field(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 224872000,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "User enters the valid \"222\" in the password field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "222",
+          "offset" : 23
+        } ],
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_enters_the_valid_in_the_password_field(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 826375900,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User clicks on the login button",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_clicks_on_the_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "user verify the homepage navigates to search hotel",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_verify_the_homepage_navigates_to_search_hotel()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@SmokeTest"
+    } ]
+  }, {
+    "start_timestamp" : "2021-12-24T04:06:47.759Z",
+    "line" : 18,
+    "name" : "verify that user is able to login the application",
+    "description" : "",
+    "id" : "testing-adactin-application-end-to-end--process;verify-that-user-is-able-to-login-the-application;;4",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 786942000,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User launch the application",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_launch_the_application()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 255202500,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User enters the valid \"CCC\" in the username field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "CCC",
+          "offset" : 23
+        } ],
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_enters_the_valid_in_the_username_field(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 190384800,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "User enters the valid \"333\" in the password field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "333",
+          "offset" : 23
+        } ],
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_enters_the_valid_in_the_password_field(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 910478900,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User clicks on the login button",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_clicks_on_the_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1000600,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "user verify the homepage navigates to search hotel",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_verify_the_homepage_navigates_to_search_hotel()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@SmokeTest"
+    } ]
+  }, {
+    "start_timestamp" : "2021-12-24T04:06:49.933Z",
+    "line" : 19,
+    "name" : "verify that user is able to login the application",
+    "description" : "",
+    "id" : "testing-adactin-application-end-to-end--process;verify-that-user-is-able-to-login-the-application;;5",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 587189600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User launch the application",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_launch_the_application()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 263891600,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User enters the valid \"Pavikumaresh\" in the username field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Pavikumaresh",
+          "offset" : 23
+        } ],
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_enters_the_valid_in_the_username_field(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 198885900,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "User enters the valid \"Pavikums@24\" in the password field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Pavikums@24",
+          "offset" : 23
+        } ],
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_enters_the_valid_in_the_password_field(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 843581600,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "User clicks on the login button",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_clicks_on_the_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "user verify the homepage navigates to search hotel",
+      "match" : {
+        "location" : "com.adactin.stepdefinition.Stepdefinition.user_verify_the_homepage_navigates_to_search_hotel()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@SmokeTest"
+    } ]
+  } ],
+  "name" : "Testing Adactin application end to end  process",
+  "description" : "",
+  "id" : "testing-adactin-application-end-to-end--process",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/com/adactin/feature/Adactin.feature",
+  "tags" : [ ]
+} ]
